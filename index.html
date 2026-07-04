@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <div class="container flex">
-        <div class="left border bg-black">
+    <div class="container flex bg-black">
+        <div class="left ">
 
-            <div class="home">
+            <div class="home bg-grey rounded m-1 p-1">
                 <div class="logo"><img class="invert" src="logo.svg" alt="Spotify"></div>
                 <ul>
                     <li><img class="invert" src="home.svg" alt="home">Home</li>
@@ -23,15 +23,52 @@
                 </ul>
             </div>
 
-            <div class="library bg-black">
-                <ul>
-                    <li><img src="search.svg" alt="Search"></li>
-                </ul>
-            </div>
-        </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="playlist">
+                    <h2>
+                        your Library
 
-        <div class="right border">
-            arya
+                    </h2>
+                </div>
+                <div class="footer">
+
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="right border bg-grey rounded m-1 p-1"">
+                <div class=" header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+                    </svg>
+
+                </div>
+                <div class="buttons">
+                    <button>Login</button>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <div class="Spotify-playlist"></div>
         </div>
 
     </div>
